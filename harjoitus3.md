@@ -10,29 +10,28 @@ Käyttämiäni ohjeita MarkDownin opetteluun:
 
 Aloitin harjoituksen asentamalla itselleni Gedit-tekstieditorin, jolla päätin kirjoittaa raportin.
 
-’sudo apt-get -y install gedit’
+`Sudo apt-get -y install gedit`
 
-Aloitin raportin kirjoittamisen komennolla ’gedit harjoitus3.md’.
+Aloitin raportin kirjoittamisen komennolla `gedit harjoitus3.md`.
 
 Tämän jälkeen menin GitHubiin (Github.com) tekemään harjoitusta varten uuden repositorion
 
 Uuden repon nimeksi laitoin "harjoitus3ph".Tein repositoriosta julkisen sekä valitsin "Initialize this repository with a README" ja lisenssiksi GNU General Public License.
 
-![1](1.xcf)
+![1]
 
 Luomisen jälkeen kloonasin uuden repositorioni omalle koneelleni:
 
-’git clone https://github.com/HuoAks/harjoitus3ph’
+`git clone https://github.com/HuoAks/harjoitus3ph`
 
 Komento kopioi koko repositorion käyttäjäni kotihakemistoon.
 
-’cd harjoitus3ph/’
-
+`cd harjoitus3ph/`
 Tässä vaiheessa siirsin raporttini uuteen hakemistooni:
 
-’mv harjoitus3.md harjoitus3ph’
+`mv harjoitus3.md harjoitus3ph`
 
-Käytin komentoja’git add .’ ja ’git commit’ tallentaakseni repoon tekemäni muutokset. Tämän jälkeen komennolla ’git push’ lisäsin commitin GitHubiin
+Käytin komentoja`git add .` ja `git commit` tallentaakseni repoon tekemäni muutokset. Tämän jälkeen komennolla `git push`lisäsin commitin GitHubiin
 
 
 
