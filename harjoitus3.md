@@ -29,9 +29,14 @@ Komento kopioi koko repositorion käyttäjäni kotihakemistoon.
 Tässä vaiheessa siirsin raporttini uuteen hakemistooni:
 
 `mv harjoitus3.md harjoitus3ph`
-
+ 
 Käytin komentoja`git add .` ja `git commit` tallentaakseni repoon tekemäni muutokset. Tämän jälkeen komennolla `git push`lisäsin commitin GitHubiin
 
+Törmäsin pieniin ongelmiin kuvien lisäämisessä MarkDown-tiedostooni ja  sen seurauksena tein useamman commitin sekä pushin. Työskentelyä helpottaakseni nappasin Tero Karvisen [ohjeesta](http://terokarvinen.com/2016/publish-your-project-with-github) komennon `git config --global credential.helper "cache --timeout=3600"`, jonka avulla Git muistaa kirjautumistiedot tunnin ajan eikä salasanaa tarvita jokaisen pushin yhteydessä.
+
+GitHubissa tilanne näytti ensimmäisten kommittien jälkeen seuraavalta:
+
+![2](2.png)
 
 
 
