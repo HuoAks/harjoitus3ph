@@ -1,6 +1,7 @@
 # Harjoitus 3, Versionhallinta ja MarkDown
 
 **Kurssi:** (http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+
 **a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.**
 
 Käyttämiäni ohjeita MarkDownin opetteluun: 
@@ -17,6 +18,8 @@ Tämän jälkeen menin GitHubiin (Github.com) tekemään harjoitusta varten uude
 
 Uuden repon nimeksi laitoin "harjoitus3ph".Tein repositoriosta julkisen sekä valitsin "Initialize this repository with a README" ja lisenssiksi GNU General Public License.
 
+![1]’
+
 Luomisen jälkeen kloonasin uuden repositorioni omalle koneelleni:
 
 ’git clone https://github.com/HuoAks/harjoitus3ph’
@@ -25,7 +28,11 @@ Komento kopioi koko repositorion käyttäjäni kotihakemistoon.
 
 ’cd harjoitus3ph/’
 
-Tässä vaiheessa tallensin raporttini 
+Tässä vaiheessa siirsin raporttini uuteen hakemistooni:
+
+’mv harjoitus3.md harjoitus3ph’
+
+Käytin komentoja’git add .’ ja ’git commit’ tallentaakseni repoon tekemäni muutokset. Tämän jälkeen komennolla ’git push’ lisäsin commitit GitHubiin
 
 
 
