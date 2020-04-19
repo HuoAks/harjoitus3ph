@@ -1,6 +1,6 @@
 # Harjoitus 3, Versionhallinta ja MarkDown
 
-**Kurssi:** (http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+**Kurssi:** http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
 
 **a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.**
 
@@ -18,7 +18,7 @@ Tämän jälkeen menin GitHubiin (Github.com) tekemään harjoitusta varten uude
 
 Uuden repon nimeksi laitoin "harjoitus3ph".Tein repositoriosta julkisen sekä valitsin "Initialize this repository with a README" ja lisenssiksi GNU General Public License.
 
-![1](1.xcf)
+![1](https://github.com/HuoAks/harjoitus3ph/blob/master/1.xcf)
 
 Luomisen jälkeen kloonasin uuden repositorioni omalle koneelleni:
 
