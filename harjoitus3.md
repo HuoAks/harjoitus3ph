@@ -18,7 +18,7 @@ Tämän jälkeen menin GitHubiin (Github.com) tekemään harjoitusta varten uude
 
 Uuden repon nimeksi laitoin "harjoitus3ph".Tein repositoriosta julkisen sekä valitsin "Initialize this repository with a README" ja lisenssiksi GNU General Public License.
 
-![1](/home/akseli/harjoitus3ph/1.xcf)
+![1](1.xcf)
 
 Luomisen jälkeen kloonasin uuden repositorioni omalle koneelleni:
 
