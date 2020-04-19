@@ -56,5 +56,5 @@ Tässä tapauksessa raporttitiedostossani näkyy uusia rivejä, joita ei ole vie
 
 ![5](5.png)
 
-
-
+Tulosteeseen tulee jokaiselta tiedoston riviltä muokkauksen timestamp, author sekä rivin sisältö tottakai.Kuvassa näkyy
+raporttiin kirjoittamiani rivejä. 
