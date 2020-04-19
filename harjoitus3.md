@@ -38,5 +38,23 @@ GitHubissa tilanne näytti ensimmäisten kommittien jälkeen seuraavalta:
 
 ![2](2.png)
 
+**d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.**
+
+`git log` komento tulostaa lokin kaikista repositorioon tehdyistä kommiteista.
+
+![3](3.png)
+
+Formaatista näkyy jokaisen kommitin oma token, author, timestamp sekä kommittiin lisätty viesti.
+
+`git diff` komento näyttää eroavaisuudet paikallisen repositorion sekä GitHubissa olevan välillä.
+
+![4](4.png)
+
+Tässä tapauksessa raporttitiedostossani näkyy uusia rivejä, joita ei ole vielä pushattu GitHubiin. Uudet rivit on merkitty +-merkillä.
+
+`git blame` komennolla voidaan esimerkiksi tarkastella jotain tiettyä repositorion tiedostoa ja katsoa rivikohtaisesti, kuka on kirjoittanut/kommittanut mitäkin. Annoin siis komennon `git blame harjoitus3.md` tarkastellakseni raportti-tiedostoani.
+
+![5](5.png)
+
 
 
