@@ -71,6 +71,8 @@ Annoin komennon `git reset --hard`, joka palauttaa repositorion tiedostot edelli
 
 **f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)**
 
+Tehtävä varten minulla oli toimiva salt mater-slave asetelma valmiina.
+
 Päätin asentaa Nginx-weppipalvelimen ja muokata, jotain siihen liityvää asetusta tai tiedostoa Saltin avulla. Lähde: https://www.nginx.com/resources/wiki/start/
 
 Aluksi asensin paketin käsin: `sudo apt-get -y install nginx` Asennuksen yhteydessä Nginx-demoni ei kuitenkaan käynnistynyt ja virheilmoituksia tarkastellessani huomasin, että tarvittava portti 80 oli Apachen käytössä.
