@@ -101,7 +101,8 @@ Seuraavaksi loin masterin /srv/salt-hakemistoon kansion "Nginx" ja sinne kopion 
 
 ![12](12.png)
 
-Sitten kansioon init.sls-tiedosto, jonne tein funktiot: pkg.installed, file.managed ja service.running.
+Sitten kansioon init.sls-tiedosto, jonne tein funktiot: pkg.installed, file.managed ja service.running. Testasin tilaa jokaisen funktion osalta niitä lisätessän. Raportoinnin sujuvoittamiseksi testasin lopuksi kokonaisuutta ja poistin ennen testiä Nginx:n minionilta sekä palautin tiedostot
+oletusmuotoonsa.
 
 ![13](13.png)
 
@@ -109,7 +110,7 @@ Sitten kansioon init.sls-tiedosto, jonne tein funktiot: pkg.installed, file.mana
 
 ![14](14.png)
 
-Tulos oli odotusten mukainen, eli Nginx asentui minionille, mutta tiedostoon ei tarvinnut tehdä muutoksia, sillä en ollut muokannut masterin source-tiedostoa.
+Tulos oli odotusten mukainen, eli Nginx asentui minionille, mutta tiedostoon ei tarvinnut tehdä muutoksia, sillä eon ollut muokannut masterin source-tiedostoa.
 
 Hain minionin selaimella Localhost, mutta siellä oli samainen aikaisemmin apache2 konfiguroidessani muokattu index.html, jonka päätin myöskin poistaa. Sitten localhostiin ilmestyi Nginx:n default-sivu.
 
