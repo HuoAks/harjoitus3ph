@@ -58,3 +58,7 @@ Tässä tapauksessa raporttitiedostossani näkyy uusia rivejä, joita ei ole vie
 
 Tulosteeseen tulee jokaiselta tiedoston riviltä muokkauksen timestamp, author sekä rivin sisältö tottakai.Kuvassa näkyy
 raporttiin kirjoittamiani rivejä. 
+
+**e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.**
+
+
